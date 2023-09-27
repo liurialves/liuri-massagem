@@ -1,0 +1,122 @@
+
+*{
+    margin: 0%;
+}
+:root{
+    --cor01: #69452f;
+    --cor02: #9e7047;
+    --cor03: #d09c3c;
+    --cor04: #ab6d3a;
+    --cor05: #b3a299;
+
+}
+#slide {
+    margin-top: 50px;
+    height: 400px;
+    width: 850px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+#what{
+    background-color: var(--cor01);
+    height: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-right: 10px;
+
+}
+
+#menu {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;    
+    margin: auto;
+}
+#menu > a {
+    font-size: 18pt;
+    color: black;
+    padding-right: 40px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+#menu > a:hover {
+    color: rgb(245, 238, 238);
+    background-color: var(--cor03);
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(/imagens/58f98cd0-816b-43a0-868b-21f4e85a13e1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+body > p > a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+body > p > a:hover {
+    color: red;
+}
+#massagens {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#foto1{
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.36);
+    padding: 20px;
+    margin: 30px;
+
+}
+#foto2 {
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.36);
+    padding: 20px;
+    margin: 30px;
+}
+#foto3 {
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.36);
+    padding: 20px;
+    margin: 30px;
+}
+.descricao {
+    display: none;
+}
+
+#foto2 > .descricao :hover{
+    display: block;
+}
+
+footer {
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    color: #030000;
+    font-weight: 800;
+    border-radius: 10px 10px 0 0;
+    margin: 50px;
+    
+}
+
